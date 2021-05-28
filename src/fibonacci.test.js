@@ -10,6 +10,7 @@ const assert = require('assert');
         for await ( const i of fibonacci.execute(3)) {};
 
         const expectedCallCount = 4;
+        //Executando teste
         assert.deepStrictEqual(spy.callCount, expectedCallCount);
     }
 
@@ -28,13 +29,15 @@ const assert = require('assert');
         * */
 
         const { args } = spy.getCall(2);
-        const expectedCallCount = [ 0, 1, 1, 2, 3];
+        const expectedResult = [ 0, 1, 1, 2, 3];
         const expectedParams = Object.values({
             input: 3,
             current: 1,
             next: 2
         });
 
-        assert.deepStrictEqual(spy.callCount, expectedCallCount);
+        //Executando teste
+        assert.deepStrictEqual(args, expectedParams);
+        assert.deepStrictEqual(results, expectedResult);
     }
 })();

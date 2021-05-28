@@ -3,8 +3,6 @@
   <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
   </p>
-
-
 <br>
 
 # JavaScript Expert - Modulo II - Javascript testing - Aula 03 - Spies.

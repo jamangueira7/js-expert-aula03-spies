@@ -11,24 +11,24 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Yarn](https://yarnpkg.com/) - 1.22.4
-- [Npm](https://www.npmjs.com/) - 6.14.5
-- [NodeJS](https://nodejs.org/en/) - v14.4.0
+- [Npm](https://www.npmjs.com/) - 9.5.0
+- [NodeJS](https://nodejs.org/en/) - v19.7.0
 
 ## 💻 Projeto
 
 Esse projeto é um teste usando spies com dados mockado.
 
+![img.png](.github%2Fimg.png)
+
 ## 🚀 Como Rodar
 
 - Clone o projeto.
 - Entre na raiz do projeto.
-- Execute "npm install".
+- Execute `npm install`.
 - Entre na pasta src.
-- Execute 'node service.test.js'
+- Execute `node fibonacci.test.js`
 
 ## 🤔 Como contribuir
 
